@@ -144,8 +144,11 @@ cursos_humanities_education = [
 
 
 prompt2 = """
-Dada a lista de palavras a seguir, atribua uma das opções {palavra1} ou {palavra2} a cada uma, escrevendo-a após a palavra. \
-As palavras são {palavras_separadas} Não inclua nenhum texto adicional na sua resposta. Separe as palavras por - e separe os pares por uma nova linha.
+Dada a lista de palavras a seguir, atribua uma das opções {palavra1} ou {palavra2} \
+a cada uma, escrevendo-a após a palavra. \
+As palavras são {palavras_separadas} \
+Não inclua nenhum texto adicional na sua resposta. \
+Separe as palavras por - e separe os pares por uma nova linha.
 """.strip()
 
 def partition_vector(vector, partition_size=3):
